@@ -2,7 +2,7 @@ Algoritmo calculadora
 	definir a,b, op Como Entero
 	definir resultado, resultado2 Como Real
 	op<-1
-mientras op!=0 hacer
+mientras op!= hacer
 	op<-capturaOpcion
 	Si op=1 Entonces
 		Escribir "Introduzca los valores a y b :"
